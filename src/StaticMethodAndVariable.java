@@ -1,5 +1,5 @@
 class mobile{
-//    instances of class
+//    non-static variable -> instances variable.
 
     String brand;
     int price;
@@ -10,16 +10,29 @@ class mobile{
                            // Also saves memory
 
 
+    public mobile(){  // Automatically called when the object is created.
+        brand = "";
+        price = 10000;
+        name = "Phone";
+        System.out.println("It is the Constructor.");
+    }
+
+    static {
+        network = "5G";
+        System.out.println("It is always calling first  'Static Block'");
+    }
+
+
     public void show() {
         System.out.println(brand + " " + price + " " + name + " " + network);
     }
-
+//
     public static void show1(mobile m){
         System.out.println("This is Static Method !!");
-
-//        you cant call non static variable in static method.
+//
+//        you cant call non-static variable in static method.
 //        because its getting confuse for the object when it called.
-
+//
         System.out.println(m.brand + " " + m.price + " " + m.name + " " + network);
     }
 
@@ -27,9 +40,22 @@ class mobile{
 
 
 public class StaticMethodAndVariable {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException {
+
+        // we have a main static -> if we dont then we have to create a object to call class StaticMethodAndVariable
+        // main is a starting point of a program then how it is possible to create object before START
+        // THIS IS CALL DEADLOCK.
+        // to solve that we create the main static.
+
+
+
+        Class.forName("mobile"); // this can be used to load class .
 
         mobile mob1 = new mobile();
+        // when object is created then -> first load class first and then objects are instantiated.
+        // Class loader is present in JVM which loads all the classes.
+        // here when the class loads so the static block run first.
+
         mob1.brand = "Apple";
         mob1.price = 650000;
         mob1.name = "Iphone 16 pro";
@@ -55,5 +81,6 @@ public class StaticMethodAndVariable {
         mob3.show();
 
         mobile.show1(mob1); // you can call static method directly with the class name
+
     }
 }
