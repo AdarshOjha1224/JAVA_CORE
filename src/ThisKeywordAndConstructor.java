@@ -38,7 +38,7 @@ class Human {
 }
 
 
-public class ThisKeyword {
+public class ThisKeywordAndConstructor {
     public static void main(String[] args) {
         Human h1 = new Human();
         // when you create the object in the heap memory then it create a empty object.
@@ -48,6 +48,7 @@ public class ThisKeyword {
         System.out.println(h1.getAge() + " " + h1.getName());
         Human h2 = new Human(18,"TAPPU");
         System.out.println(h2.getAge() + " " + h2.getName());
+        new Human();
 
     }
 }
