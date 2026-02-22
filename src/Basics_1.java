@@ -1,3 +1,7 @@
+import java.lang.*;  // no need cause its already in every java file by default
+// meaning of * is all the files in lang in java folder
+
+
 public class Basics_1 {
     public static void main(String[] args) {
 

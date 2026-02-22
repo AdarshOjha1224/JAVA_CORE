@@ -42,6 +42,7 @@ public class ThisKeywordAndConstructor {
     public static void main(String[] args) {
         Human h1 = new Human();
         // when you create the object in the heap memory then it create a empty object.
+        // when object is created , it call the constructor of class and sub classes.
         System.out.println(h1.getAge() + " " + h1.getName());
         h1.setAge(21);
         h1.setName("Adarsh Ojha");
