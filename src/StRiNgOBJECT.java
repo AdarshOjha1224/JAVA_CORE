@@ -10,7 +10,7 @@ public class StRiNgOBJECT {
         System.out.println(name);
         System.out.println(name.hashCode());
         System.out.println(name.charAt(1));
-//      System.out.println(name.concat(" Ojha"));
+      System.out.println(name.concat(" Ojha"));
 
         String s1 = "Adarsh";
         String s2 = "Adarsh";
@@ -36,8 +36,8 @@ public class StRiNgOBJECT {
         sb.append(" Ojha");
         System.out.println(sb); // Adarsh Ojha
 
-//        String str = sb.toString();
-//        System.out.println(str);
+        String str = sb.toString();
+        System.out.println(str);
 
         sb.deleteCharAt(3);
         System.out.println(sb); // Adash Ojha
