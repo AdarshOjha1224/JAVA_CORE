@@ -9,11 +9,13 @@ class First {
     }
 }
 
+
 class Second extends First {
     public void show(){ // Method Overriding. (which gives preference its own feature first)
         System.out.println("In Second show");
     }
 }
+
 
 public class MethodOverRiding {
     public static void main(String[] args) {
