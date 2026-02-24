@@ -37,6 +37,5 @@ public class Polymorphism {
         p1 = new teesri();
         p1.show();
 
-
     }
 }

@@ -5,7 +5,7 @@ public class inheritance {
     public static void main(String[] args) {
 
         // parent - child class.
-        // super - sub class.
+        // super - Sub-class.
         // base - derived class.
 
 
@@ -39,7 +39,6 @@ public class inheritance {
         String r9 = c1.backCamera(true);
         String r10 = c1.airCondition(false);
         System.out.println(r9 + "\n" + r10);
-
 
 
     }
