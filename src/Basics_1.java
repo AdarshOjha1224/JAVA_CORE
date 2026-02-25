@@ -13,7 +13,7 @@ public class Basics_1 {
         //  | includes
         // JRE -> JAVA RUNTIME ENVIRONMENT (required for extra inbuilt classes which we used in our code)
         //  | includes
-        // JVM -> JAVA VIRTUAL MACHINE (this gonna run your run)
+        // JVM -> JAVA VIRTUAL MACHINE (this gonna run your program)
 
 
         // we have to download jdk to develop these program
