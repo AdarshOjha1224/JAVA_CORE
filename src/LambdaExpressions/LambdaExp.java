@@ -16,12 +16,12 @@ public class LambdaExp {
 //            }
 //        };
 
-        /// LAMBDA EXPRESSION ->>>
+/// LAMBDA EXPRESSION ->>>
 
 //        A a1 = (int i) -> System.out.println("In the show ! " + i);
 //        A a1 = (i) -> System.out.println("In the show ! " + i);
 
-        // create less class files , but the LamdaExp class got heavier.
+        // create less class files , but because of LambdaExp the class got heavier.
         A a1 = i -> System.out.println("In the show ! " + i);
 
         a1.show(20);
