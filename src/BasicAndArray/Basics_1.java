@@ -1,3 +1,5 @@
+package BasicAndArray;
+
 import java.lang.*;  // no need cause its already in every java file by default
 // meaning of * is all the files in lang in java folder
 
@@ -23,7 +25,7 @@ public class Basics_1 {
 
         // NAMING ----->>>
         // CamelCasing - (showMyMarks() , SumOfTwoNums() , ... etc.)
-        // class and interface - first letter Upper-Case (Calculator , Human , ... etc)
+        // class and interface - first letter Upper-Case (Methods.Calculator , ThisAndConstructor.Human , ... etc)
         // variable and methods - first letter small-case (marks , show() , ... etc)
         // constants - PIE , BRAND
         // snake_casing - (show_my_marks() , sum_of_two_nums() , ... etc)

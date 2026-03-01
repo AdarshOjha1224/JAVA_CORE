@@ -1,4 +1,4 @@
-
+package Objects;
 
 public class StRiNgOBJECT {
     public static void main(String[] args) {

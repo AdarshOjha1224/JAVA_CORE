@@ -1,3 +1,4 @@
+package Objects;
 
 class Laptop {
     String model ;
@@ -6,14 +7,14 @@ class Laptop {
     //    we want to compare with the values.
 //    so we are creating this method which can override the method of the Object class.
 
-//    public boolean equals(Laptop that){
+//    public boolean equals(Objects.Laptop that){
 //        return (this.model.equals(that.model) && this.price == that.price);
 //    }
 
 
     @Override
     public String toString() {
-        return "Laptop{" +
+        return "Objects.Laptop{" +
                 "model='" + model + '\'' +
                 ", price=" + price +
                 '}';

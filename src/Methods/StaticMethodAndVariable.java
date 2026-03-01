@@ -1,3 +1,5 @@
+package Methods;
+
 class mobile{
 //    non-static variable -> instances variable.
 
@@ -42,14 +44,14 @@ class mobile{
 public class StaticMethodAndVariable {
     public static void main(String[] args) throws ClassNotFoundException {
 
-        // we have a main static -> if we dont then we have to create a object to call class StaticMethodAndVariable
+        // we have a main static -> if we dont then we have to create a object to call class Methods.StaticMethodAndVariable
         // main is a starting point of a program then how it is possible to create object before START
         // THIS IS CALL DEADLOCK.
         // to solve that we create the main static.
 
 
 
-        Class.forName("mobile"); // this can be used to load class .
+        Class.forName("Methods.mobile"); // this can be used to load class .
 
         mobile mob1 = new mobile();
         // when object is created then -> first load class first and then objects are instantiated.

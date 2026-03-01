@@ -1,9 +1,9 @@
-// final - variable , method , class.
+package Inheritance;// final - variable , method , class.
 
 final class A_{ // final class -> stoping the inheritance.
 
     public void show(){
-        System.out.println("This is class A");
+        System.out.println("This is class ThisAndConstructor.A");
     }
     public void add(int a,int b){
         System.out.println(a+b);
@@ -12,7 +12,7 @@ final class A_{ // final class -> stoping the inheritance.
 
 class B_{
     final public void show(){ // final method -> Stoping the override.
-        System.out.println("This is class B");
+        System.out.println("This is class ThisAndConstructor.B");
     }
     public void add(int a,int b){
         System.out.println(a+b);

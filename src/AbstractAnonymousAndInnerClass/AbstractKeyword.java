@@ -1,3 +1,5 @@
+package AbstractAnonymousAndInnerClass;
+
 /// Abstract keyword used with -> methods and class
 /// Abstract method only belongs to abstract class
 /// You can't create the object of the abstract class.

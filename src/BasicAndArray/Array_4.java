@@ -1,3 +1,5 @@
+package BasicAndArray;
+
 import java.util.Scanner;
 
 public class Array_4 {

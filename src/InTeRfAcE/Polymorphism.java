@@ -1,3 +1,5 @@
+package InTeRfAcE;
+
 class pehli {
     public void show(){
         System.out.println("Pehli class hai ye.");
@@ -6,7 +8,7 @@ class pehli {
 
 class dusri extends pehli {
     public void show(){
-        System.out.println("dusri class hai ye.");
+        System.out.println("InTeRfAcE.dusri class hai ye.");
     }
 }
 
@@ -26,8 +28,8 @@ public class Polymorphism {
         // Only possible in Inheritance.
 
         pehli p1 = new pehli();
-        // we are here referring the p1 variable to pehli class
-        // but creating the object of dusri class.
+        // we are here referring the p1 variable to InTeRfAcE.pehli class
+        // but creating the object of InTeRfAcE.dusri class.
         p1.show();
 
         // we can assign a new object to a old variable.

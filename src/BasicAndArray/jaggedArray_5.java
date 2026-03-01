@@ -1,3 +1,5 @@
+package BasicAndArray;
+
 import java.util.Scanner;
 
 public class jaggedArray_5 {

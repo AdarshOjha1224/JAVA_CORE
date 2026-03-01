@@ -1,3 +1,4 @@
+package InTeRfAcE;
 
 class Papa {
     public void show1(){
@@ -23,8 +24,8 @@ public class UpcastingAndDowncasting {
 
         // UPCASTING ->>>>
         Papa p1 = (Papa) new Beta(); // you dont have to mention it implicitly.
-        // it can also written as    [  Papa p1 = new Beta();  ]
-        // the object of Beta is refer to the Papa (So we are going up) ->>
+        // it can also written as    [  InTeRfAcE.Papa p1 = new InTeRfAcE.Beta();  ]
+        // the object of InTeRfAcE.Beta is refer to the InTeRfAcE.Papa (So we are going up) ->>
         p1.show1();
 
 

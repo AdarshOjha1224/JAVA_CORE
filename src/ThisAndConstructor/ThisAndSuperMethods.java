@@ -1,9 +1,10 @@
+package ThisAndConstructor;
 
 // every class in java extends Objects class
 class A extends Object {
     public A(){
         super();
-        System.out.println("This is A");
+        System.out.println("This is ThisAndConstructor.A");
     }
 
     public A(int a){
@@ -16,7 +17,7 @@ class A extends Object {
 class B extends A {
     public B(){
         super(); // Call the constructor of super class (The default constructor).
-        System.out.println("This is B");
+        System.out.println("This is ThisAndConstructor.B");
     }
 
     public B(int b){
@@ -29,11 +30,11 @@ class B extends A {
 
 public class ThisAndSuperMethods {
     public static void main(String[] args) {
-//        B b1 = new B();
+//        ThisAndConstructor.B b1 = new ThisAndConstructor.B();
 
         B b2 = new B(10);
 
-        // i want to execute the both constructor of B.
+        // i want to execute the both constructor of ThisAndConstructor.B.
 
 
     }

@@ -1,7 +1,8 @@
+package Methods;
 
 class First {
     public void show(){
-        System.out.println("In First show");
+        System.out.println("In Methods.First show");
     }
 
     public void display(){
@@ -12,7 +13,7 @@ class First {
 
 class Second extends First {
     public void show(){ // Method Overriding. (which gives preference its own feature first)
-        System.out.println("In Second show");
+        System.out.println("In Methods.Second show");
     }
 }
 

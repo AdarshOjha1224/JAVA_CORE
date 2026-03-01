@@ -1,14 +1,15 @@
+package AbstractAnonymousAndInnerClass;
 
 class Animal {
     public void show() {
-        System.out.println("This is Animal...");
+        System.out.println("This is AbstractAnonymousAndInnerClass.Animal...");
     }
 }
 
 // If you know that this extended class is going to use only once,
 // then why we create this ??
 
-//class Monkey extends Animal {
+//class Monkey extends AbstractAnonymousAndInnerClass.Animal {
 //    public void show(){
 //        System.out.println("This is Monkey...");
 //    }

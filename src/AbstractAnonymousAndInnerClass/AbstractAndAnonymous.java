@@ -1,3 +1,4 @@
+package AbstractAnonymousAndInnerClass;
 
 abstract class Parent {
     public abstract void show();
@@ -9,7 +10,7 @@ public class AbstractAndAnonymous {
     public static void main(String[] args) {
 
         // if you want to implement interface/abstract class only once then you can use inner class.
-        // we are creating the object not Parent , we are creating the object of inner class.
+        // we are creating the object not AbstractAnonymousAndInnerClass.Parent , we are creating the object of inner class.
         Parent p1 = new Parent() {
             public void show() {
                 System.out.println("In the new show!!");
