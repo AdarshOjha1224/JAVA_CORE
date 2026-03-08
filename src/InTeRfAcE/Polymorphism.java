@@ -23,9 +23,9 @@ public class Polymorphism {
         // Two types - 1.Compile time polymorphism (early binding) - Overloading.
         //             2.Run time polymorphism (late binding). - Overriding.
 
-
         // concept - DYNAMIC METHOD DISPATCH -->>>
         // Only possible in Inheritance.
+
 
         pehli p1 = new pehli();
         // we are here referring the p1 variable to InTeRfAcE.pehli class
