@@ -7,7 +7,6 @@ class Computer {
 
     public String showImages(int num){
         if(num>=10) return "Images";
-
         return "nothing";
     }
 }
