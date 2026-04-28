@@ -6,9 +6,6 @@ package Static;
 
 public class StaticKeyword {
     public static void main(String[] args) {
-
-
-
         Student stud1 = new Student();
         System.out.println(stud1.getAge());
     }
