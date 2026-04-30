@@ -34,9 +34,5 @@ public class Methods_2 {
         // if you want to use the anonymous object , you can use it only once like if the method is present
         // In the class Methods.Computer then we can use it like - new Methods.Computer().show(); , but we cant use it again
         // because it doest have any referring variable
-
-
-
-
     }
 }
