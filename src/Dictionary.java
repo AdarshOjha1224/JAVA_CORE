@@ -24,7 +24,5 @@ public class Dictionary {
                 letter[i][j] = word[i].charAt(j);
             }
         }
-
-        // to be continue.....
     }
 }
