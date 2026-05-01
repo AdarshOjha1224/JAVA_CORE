@@ -36,6 +36,7 @@ interface fourth extends third {
 
 }
 
+
 // can implement the multiple interfaces ->>
 class second implements first , third {
 
@@ -54,6 +55,7 @@ class second implements first , third {
         System.out.println("Running.....");
     }
 }
+
 
 public class Practice {
     public static void main(String[] args) {
