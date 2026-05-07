@@ -59,7 +59,6 @@ class second implements first , third {
 
 public class Practice {
     public static void main(String[] args) {
-
         // reference of first and object of second.
         first f1 = new second();
         f1.show();
@@ -71,7 +70,5 @@ public class Practice {
         // to use static things , we don't need object.
         System.out.println(first.age);
         System.out.println(first.name);
-
-
     }
 }
