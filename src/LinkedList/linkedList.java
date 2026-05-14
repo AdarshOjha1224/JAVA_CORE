@@ -15,6 +15,7 @@ public class linkedList {
         }
     }
 
+
     // The head is the starting point of the linked list
     private Node head;
     private int size; // Keep track of how many elements are in the list
