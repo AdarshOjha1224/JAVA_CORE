@@ -11,6 +11,8 @@ public class Generics {
 
     }
 
+
+
     public static void main(String[] args) {
         System.out.println("--- Generic Class Example ---");
 
@@ -28,6 +30,7 @@ public class Generics {
         Integer[] intArray = { 1, 2, 3, 4, 5 };
         String[] stringArray = { "Java", "Python", "C++" };
         System.out.print("Integer Array: ");
+
 
         printArray(intArray);
         System.out.print("String Array: ");
