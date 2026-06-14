@@ -10,6 +10,10 @@ package AbstractAnonymousAndInnerClass;
 
 abstract class Car {
 
+    Car(){
+        System.out.println("Abstract Class Car Constructor !! ");
+    }
+
     public void playMusic(){
         System.out.println("DHOOM MACHALE DHOOM MACHALE DHOOOM !!");
     }
@@ -22,9 +26,13 @@ abstract class Car {
 /// that class also have to be abstract class.
 
 abstract class ferrari extends Car {
-//    public void fly(){
-//        System.out.println("FAMILY !!");
-//    }
+
+    ferrari(){
+        System.out.println("Abstract Class ferrari extends Car Contructor !! ");
+    }
+    public void fly(){
+        System.out.println("FAMILY !!");
+    }
 
     public void drive() {
         System.out.println("Driving !!");
@@ -44,5 +52,7 @@ public class AbstractKeyword {
         Car c1 = new UpdatedFerrari();
         c1.drive();
         c1.playMusic();
+        c1.fly();
+
     }
 }
