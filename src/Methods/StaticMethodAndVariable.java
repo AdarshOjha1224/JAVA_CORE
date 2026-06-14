@@ -21,7 +21,7 @@ class mobile{
 
     static {
         network = "5G";
-        System.out.println("It is always calling first  'Static Block'");
+        System.out.println("It is always calling first 'Static Block'");
     }
 
 
@@ -54,7 +54,7 @@ public class StaticMethodAndVariable {
         Class.forName("Methods.mobile"); // this can be used to load class .
 
         mobile mob1 = new mobile();
-        // when object is created then -> first load class first and then objects are instantiated.
+        // when object is created then -> first load class and then objects are instantiated.
         // Class loader is present in JVM which loads all the classes.
         // here when the class loads so the static block run first.
 
