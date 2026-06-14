@@ -23,8 +23,8 @@ public class Methods_2 {
         // c1 is here actually a reference variable because it is referring the object in the heap
 
         // TWO STEPS ---->>>
-        // Methods.Computer c1 ; // reference creation which is c1 . (In the heap with the address)
-        // c1 = new Methods.Computer(); // Creating an object and assigning the value to c1. (In the stack with reference variable which referring that same address)
+        // Computer c1 ; // reference creation which is c1 . (In the heap with the address)
+        // c1 = new Computer(); // Creating an object and assigning the value to c1. (In the stack with reference variable which referring that same address)
         System.out.println(c1.showImages(11));
         System.out.println(c1.showImages(2));
 
