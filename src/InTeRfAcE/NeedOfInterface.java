@@ -1,6 +1,6 @@
 package InTeRfAcE;
 
-interface Computer{
+interface Computer {
     void code();
 }
 
