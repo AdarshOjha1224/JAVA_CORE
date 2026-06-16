@@ -1,6 +1,12 @@
 package InTeRfAcE;
 
-class Papa {
+class Dada {
+    public void show() {
+        System.out.println("Hello dada Ji !!");
+    }
+}
+
+class Papa extends Dada {
     public void show1(){
         System.out.println("Hello papa Ji !!");
     }
@@ -24,15 +30,17 @@ public class UpcastingAndDowncasting {
 
         // UPCASTING ->>>>
         Papa p1 = (Papa) new Beta(); // you dont have to mention it implicitly.
-        // it can also written as    [  InTeRfAcE.Papa p1 = new InTeRfAcE.Beta();  ]
-        // the object of InTeRfAcE.Beta is refer to the InTeRfAcE.Papa (So we are going up) ->>
+        // it can also written as    [  Papa p1 = new Beta(); ]
+        // the object of Beta is refer to the Papa (So we are going up) ->>
         p1.show1();
+        // Upcasting make possible to using properties which belongs to Parent Class only. Not its own properties.
+        p1.show();
 
 
-        // DOWNCASTING ->>>>
+        // DOWN-CASTING ->>>>
         // why we need this -> child-class can access the properties of parent-class,
         // but parent-class cant access the properties of child-class.
-        // To Make possible this we use the concept of Downcasting.
+        // To Make possible this we use the concept of Down-casting.
         Beta b1 = (Beta) p1 ;
         b1.show2();
 
