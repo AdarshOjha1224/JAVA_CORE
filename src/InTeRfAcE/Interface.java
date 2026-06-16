@@ -4,6 +4,7 @@ package InTeRfAcE;
 /// class to interface -> implements
 /// interface to interface -> extends
 
+// TYPES - Normal Interface , Functional Interface(Single Abstract Method) & Marker Interface.
 
 // it is necessary to implement all the method which is in the interface class.
 // Other-wise class will become abstract and you need another class to implement the remaining methods.
@@ -20,6 +21,7 @@ package InTeRfAcE;
 ///
 /// final ->> because the interface don't have own memory in the heap
 
+// Normal Interface
 interface first{
        int age = 21 ;
     String name = "Adarsh" ;
@@ -28,10 +30,12 @@ interface first{
     void config();
 }
 
+// Functional Interface
 interface third{
     void run();
 }
 
+// Marker Interface
 interface fourth extends third {
 
 }
@@ -70,6 +74,10 @@ public class Interface {
         // to use static things , we don't need object.
         System.out.println(first.age);
         System.out.println(first.name);
+
+        // Using Functional Interface for Lambda Expression.
+        third t2 = () -> System.out.println("Lambda Expression");
+        t2.run();
 
 
     }
