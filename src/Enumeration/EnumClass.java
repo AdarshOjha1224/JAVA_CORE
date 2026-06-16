@@ -7,12 +7,13 @@ enum Laptop{
 
     // we are using private constructor because,
     // we are creating the objects in the same class itself.
+    // So the constructor calls when the object(Three has price and one hasn't) is created so -
 
-    private Laptop() {
+    private Laptop() { // this run once.
         price = 10000;
     }
 
-    private Laptop(int price) {
+    private Laptop(int price) { // this runs three times.
         this.price = price;
         System.out.println("In Laptop " + this.name());
     }
