@@ -18,7 +18,8 @@ public class enumeration {
         System.out.println(st1);
         System.out.println(st1.ordinal());
 
-        Status[] st2 = Status.values();
+        Status[] st2 = Status.values(); // Array
+        System.out.println(st2); // Address
 //        System.out.println(st2[1]);
 
         for(Status s : st2){
