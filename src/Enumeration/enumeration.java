@@ -1,7 +1,7 @@
 package Enumeration;
 
 // where you want to use constant
-/// you cant extend the enum.
+/// you CAN'T extend the enum.
 enum Status{ // this is a class
     Running, Failed , Pending , Success;
     // These all are objects.(named constant)
