@@ -20,7 +20,8 @@ public class ExceptionHierarchy {
 //
 //                          Runtime Exception -> ArithmeticException ,
 //                                               ArrayIndexOutOfBoundsException ,
-//                                               NullPointerException.
+//                                               NullPointerException,
+//                                               etc.
 
     }
 }
