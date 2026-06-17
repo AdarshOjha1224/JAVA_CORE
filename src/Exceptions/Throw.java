@@ -7,7 +7,7 @@ public class Throw {
         int j = 0 ;
 
         try{
-            j = 18/i;
+            j = 18/i; // 18/20 == 0
             // lets handle the error.
             // we are trying to throw an error.
             // throwing the object of ArithmeticException and catch will catch it.
