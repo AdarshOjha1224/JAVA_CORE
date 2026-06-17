@@ -1,5 +1,7 @@
 package Exceptions;
 
+// You can extends to Exception or RuntimeException because of inheritance property.
+// super call the constructor of parent class.
 class AdarshException extends RuntimeException {
     public AdarshException(String str){
         super(str);
