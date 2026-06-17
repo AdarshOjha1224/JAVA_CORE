@@ -24,6 +24,7 @@ class A {
 
 public class Throws {
 
+
     static {
         System.out.println("Class Loaded ! ");
     }
@@ -33,6 +34,8 @@ public class Throws {
     // IT IS NOT RECOMMENDED TO ALLOW main TO THROWS THE EXCEPTION.
     // reason -> if you let main throws exception then it will duck it to the JVM ,
     // and JVM will stops the execution.
+
+
     public static void main(String[] args) {
          // DUCKING EXCEPTION
 
