@@ -1,6 +1,8 @@
 package ThisAndConstructor;
 
 // every class in java extends Objects class
+// Only one explicit constructor call allowed in constructor
+
 class A extends Object {
     public A(){
         super();
@@ -9,6 +11,7 @@ class A extends Object {
 
     public A(int a){
         super();
+//        super(a);
         System.out.println("This is int a");
     }
 }
@@ -22,7 +25,7 @@ class B extends A {
 
     public B(int b){
         this(); // this will execute the constructor of same class.
-//        super(b); // if you want to pass the parameterized constructor then you have to mention super explicitely.
+//        super(b); // if you want to pass the parameterized constructor then you have to mention super explicitly.
         System.out.println("This is int b");
     }
 }
