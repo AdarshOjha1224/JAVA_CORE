@@ -1,3 +1,5 @@
+package AbstractAnonymousAndInnerClass;
+
 // The abstract class
 abstract class Animal {
 
@@ -23,7 +25,7 @@ abstract class Animal {
     }
 }
 
-// A concrete child class inheriting from Animal
+// A concrete child class inheriting from AbstractAnonymousAndInnerClass.Animal
 class Dog extends Animal {
 
     // Constructor calling the parent (super) constructor
@@ -38,7 +40,7 @@ class Dog extends Animal {
     }
 }
 
-// Another concrete child class inheriting from Animal
+// Another concrete child class inheriting from AbstractAnonymousAndInnerClass.Animal
 class Cat extends Animal {
 
     public Cat(String name) {
@@ -55,7 +57,7 @@ class Cat extends Animal {
 // The main class to run the program
 public class InheritanceAndAbstract {
     public static void main(String[] args) {
-        // Animal myAnimal = new Animal("Generic"); // Error! Cannot instantiate an abstract class
+        // AbstractAnonymousAndInnerClass.Animal myAnimal = new AbstractAnonymousAndInnerClass.Animal("Generic"); // Error! Cannot instantiate an abstract class
 
         // Creating instances of the concrete subclasses
         Dog myDog = new Dog("Buddy");
