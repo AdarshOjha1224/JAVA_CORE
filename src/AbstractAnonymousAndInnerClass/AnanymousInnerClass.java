@@ -1,6 +1,6 @@
 package AbstractAnonymousAndInnerClass;
 
-class Animal {
+class Animal1 {
     public void show() {
         System.out.println("This is AbstractAnonymousAndInnerClass.Animal...");
     }
@@ -20,7 +20,7 @@ public class AnanymousInnerClass {
     public static void main(String[] args) {
 
         // NEW IMPLEMENTATION -> (Inner class inside the main class, with NO NAME -> ANONYMOUS)
-        Animal an1 = new Animal() {
+        Animal1 an1 = new Animal1() {
             public void show() {
                 System.out.println("This is Monkey...");
             }
