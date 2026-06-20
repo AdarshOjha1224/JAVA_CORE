@@ -118,6 +118,8 @@ public class collection_interface {
         // Map is collection of key-value pairs.
 
         Map<String,Integer> students = new HashMap<>();
+        // HashTable will work fine in the place of HashMap , but the difference is HashTable is synchronized.
+        // If you want to use hashMap with multiple threads then use synchronized externally.
 
         // put - try to add the element if you already have this key just replace it.
         students.put("A",95);
@@ -138,7 +140,6 @@ public class collection_interface {
             System.out.println();
         }
 
-        // TIMESTAMP - 11:39:20 CONTINUE PLEASE.
 
     }
 }
