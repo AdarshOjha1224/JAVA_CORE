@@ -19,13 +19,11 @@ class Students implements Comparable<Students> {
                 '}';
     }
 
-
     public int compareTo(Students that) {
         if(this.age > that.age) return 1 ;
         return -1 ;
     }
 }
-
 
 
 public class ComparatorVsComparable {
