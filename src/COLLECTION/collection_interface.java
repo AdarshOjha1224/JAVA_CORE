@@ -14,6 +14,7 @@ public class collection_interface {
     public static void main(String[] args) {
 
         // ----------COLLECTION----------
+        // Collection works with Wrapper class.
         System.out.println("----------COLLECTION----------");
 
         // I dont want to use anonymous class like -
