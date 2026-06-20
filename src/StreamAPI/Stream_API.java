@@ -51,6 +51,12 @@ public class Stream_API {
 
 
 
+//      for single thread , for multiple thread parallelStream() but then dont use sorted().
+        Stream<Integer> sortedValues = nums.stream()
+                .filter(n -> n%2==0)
+                .sorted();
+
+        sortedValues.forEach(n -> System.out.println(n));
 
     }
 }
