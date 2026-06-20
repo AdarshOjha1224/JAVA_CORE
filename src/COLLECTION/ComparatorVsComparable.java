@@ -45,6 +45,7 @@ public class ComparatorVsComparable {
         studs.add(new Students("E", 22));
 
         // Here we are using simple sort with the help of implementation of Comparable interface with Student Class.
+
         Collections.sort(studs);
         for(Students s : studs) System.out.println(s);
 
