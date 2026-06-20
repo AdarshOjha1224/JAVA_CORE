@@ -1,7 +1,6 @@
 package COLLECTION;
 import java.util.*;
 
-
 class Students implements Comparable<Students> {
     String name ;
     int age ;
