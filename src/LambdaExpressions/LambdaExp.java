@@ -1,5 +1,6 @@
 package LambdaExpressions;
 
+// Lambda Expression only works with Functional Interface.
 @FunctionalInterface
 interface A {
     void show(int i);
