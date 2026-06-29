@@ -7,14 +7,15 @@ public class Excepn {
         //          2. Runtime error (EXCEPTION , which need Handling)
         //          3. Logical error (No compile error and runtime error, needs debugging and testing)
 
+
         // STATEMENTS - 1. Normal statements, 2. Critical statements
 
-        // normal
+        // NORMAL STATEMENTS
         int i = 9 ;
         int j = 27/i;
         System.out.println(j);
 
-//        // critical
+//        // CRITICAL STATEMENTS
 //        int a = 0 ;
 //        int b = 10/a;
 
@@ -22,6 +23,7 @@ public class Excepn {
 //        To Make it run without any halt , Exception Handling Required.
 
 //        System.out.println(b);
+
 
         int a = 0 ;
         int b = 0 ;
