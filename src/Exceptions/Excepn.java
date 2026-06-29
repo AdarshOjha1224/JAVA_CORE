@@ -2,6 +2,7 @@ package Exceptions;
 
 public class Excepn {
     public static void main(String[] args) {
+
         // ERRORS - 1. Compile time error (because of syntax error generally)
         //          2. Runtime error (EXCEPTION , which need Handling)
         //          3. Logical error (No compile error and runtime error, needs debugging and testing)
