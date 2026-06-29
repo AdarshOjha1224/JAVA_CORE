@@ -43,9 +43,7 @@ public class Excepn {
         catch (Exception e) {
             System.out.println("SOMETHING WENT WRONG..." + e);
         }
-
         System.out.println(b);
         System.out.println("BYE BYE");
-
     }
 }
