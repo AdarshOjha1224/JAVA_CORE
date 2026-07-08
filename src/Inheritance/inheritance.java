@@ -21,8 +21,7 @@ public class inheritance {
 //            Car3                        |
 //              ---------------------------
 
-//        MULTIPLE INHERITANCE IS NOT WORK IN JAVA .
-
+///     MULTIPLE INHERITANCE IS NOT WORK IN JAVA .
 
         Car3 c1 = new Car3();
         String r1 = c1.accelerator(40);
