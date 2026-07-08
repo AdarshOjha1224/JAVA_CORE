@@ -10,5 +10,4 @@ class Car2 extends Car1 {
         if(music) return "Music System is on";
         return "Music System is off";
     }
-
 }
