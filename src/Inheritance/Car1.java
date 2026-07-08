@@ -5,6 +5,7 @@ class Car1 {
         if(a>30) return "Speeding...";
         return "Same Speed";
     }
+
     public String brake(int b){
         if(b==0) return "Stop";
         return "Slowing";
