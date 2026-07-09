@@ -33,6 +33,7 @@ public class inheritance {
         String r5 = c1.musicSystem(true);
         String r6 = c1.headlight(false);
         System.out.println(r5 + "\n" + r6);
+
         String r7 = c1.musicSystem(false);
         String r8 = c1.headlight(true);
         System.out.println(r7 + "\n" + r8);
