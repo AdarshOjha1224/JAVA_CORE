@@ -1,6 +1,7 @@
 package Inheritance;
 
 class Car1 {
+
     public String accelerator(int a){
         if(a>30) return "Speeding...";
         return "Same Speed";
