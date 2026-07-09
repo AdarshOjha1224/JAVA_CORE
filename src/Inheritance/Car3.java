@@ -1,6 +1,7 @@
 package Inheritance;
 
 class Car3 extends Car2 {
+
     public String backCamera(boolean bc){
         if(bc) return "Back Camera is on";
         return "Back camera is off";
