@@ -29,6 +29,7 @@ public class inheritance {
         String r3 = c1.accelerator(15);
         String r4 = c1.brake(0);
         System.out.println(r1 + "\n" + r2 + "\n" + r3 + "\n" + r4);
+
         String r5 = c1.musicSystem(true);
         String r6 = c1.headlight(false);
         System.out.println(r5 + "\n" + r6);
