@@ -37,6 +37,7 @@ public class inheritance {
         String r7 = c1.musicSystem(false);
         String r8 = c1.headlight(true);
         System.out.println(r7 + "\n" + r8);
+
         String r9 = c1.backCamera(true);
         String r10 = c1.airCondition(false);
         System.out.println(r9 + "\n" + r10);
