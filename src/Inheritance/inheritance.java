@@ -8,7 +8,6 @@ public class inheritance {
         // super - Sub-class.
         // base - derived class.
 
-
         // child class  extends  parent class
 
 //              ---------------------------
