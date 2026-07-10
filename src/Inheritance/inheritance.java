@@ -41,6 +41,5 @@ public class inheritance {
         String r10 = c1.airCondition(false);
         System.out.println(r9 + "\n" + r10);
 
-
     }
 }
