@@ -13,10 +13,18 @@ class Human {
         System.out.println("Its a constructor.");
     }
 
+
+
+
+
     public Human(int age,String name){ // PARAMETERIZED CONSTRUCTOR
         this.age = age;
         this.name = name;
     }
+
+
+
+
 
     public int getAge() {
         return age;
