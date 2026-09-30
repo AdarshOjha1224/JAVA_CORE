@@ -1,4 +1,4 @@
-package Methods;
+package Method;
 
 class Computer {
     public void playmusic(){
@@ -29,10 +29,12 @@ public class Methods_2 {
         System.out.println(c1.showImages(2));
 
 
-        new Computer(); // if the constructor is present in the class Methods.Computer that will run
+        new Computer();
+        // if the constructor is present in the class Methods.Computer that will run
         // this is what we call a anonymous object.
         // if you want to use the anonymous object , you can use it only once like if the method is present
         // In the class Methods.Computer then we can use it like - new Methods.Computer().show(); , but we cant use it again
+        System.out.println(new Computer().showImages(10));
         // because it doest have any referring variable
     }
 }

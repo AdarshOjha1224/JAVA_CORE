@@ -1,4 +1,4 @@
-package Methods;
+package Method;
 
 class mobile{
 //    non-static variable -> instances variable.
@@ -51,7 +51,7 @@ public class StaticMethodAndVariable {
 
 
 
-        Class.forName("Methods.mobile"); // this can be used to load class .
+        Class.forName("Method.mobile"); // this can be used to load class .
 
         mobile mob1 = new mobile();
         // when object is created then -> first load class and then objects are instantiated.
