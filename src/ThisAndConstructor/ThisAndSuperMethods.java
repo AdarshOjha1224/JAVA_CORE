@@ -19,7 +19,7 @@ class A extends Object {
 
 class B extends A {
     public B(){
-        super(); // Call the constructor of super class (The default constructor).
+//        super(); // Call the constructor of super class (The default constructor).
         System.out.println("This is ThisAndConstructor.B");
     }
 
@@ -36,9 +36,6 @@ public class ThisAndSuperMethods {
 //        ThisAndConstructor.B b1 = new ThisAndConstructor.B();
 
         B b2 = new B(10);
-
-        // i want to execute the both constructor of ThisAndConstructor.B.
-
-
+        // i want to execute the both constructor of ThisAndConstructor.B
     }
 }
