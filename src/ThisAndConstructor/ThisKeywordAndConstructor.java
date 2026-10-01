@@ -10,6 +10,8 @@ class Human {
     // everytime we create a new object it calls the constructor , You not need to call them specially.
 
     public Human(){   // DEFAULT CONSTRUCTOR
+        this.age = 18;
+        this.name = "Holaa";
         System.out.println("Its a constructor.");
     }
 
