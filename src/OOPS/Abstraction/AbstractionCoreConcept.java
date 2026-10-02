@@ -1,5 +1,15 @@
 package OOPS.Abstraction;
 
+/// Abstract keyword used with -> methods and class
+/// Abstract method only belongs to abstract class
+/// You can't create the object of the abstract class.
+/// abstract class can have both - abstract methods and normal methods (ONLY ALSO) BUT.
+/// abstract method only allowed in abstract class.
+/// Abstract -> giving the abstract idea but,at the moment don't know how to implement it.
+///  It is compulsory to implement all the abstract methods.
+///  If the extends (Inherited) class is not able to implement all the methods then
+/// that class also have to be abstract class.
+
 //Abstraction: Abstraction is the process of hiding the complex, underlying implementation details of a system and exposing only the essential features or functionalities to the user. It focuses on what an object does rather than how it does it.
 //
 //How it works with Inheritance: In Java, Abstraction is primarily achieved using abstract classes (and Interfaces). An abstract class acts as a high-level template. Through Inheritance, child classes extend this template. The parent class defines the "contract" (abstract methods with no bodies), and the child classes are strictly forced by the compiler to provide the actual implementation (the "how").
