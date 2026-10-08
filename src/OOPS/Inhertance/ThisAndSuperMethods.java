@@ -1,4 +1,4 @@
-package ThisAndConstructor;
+package OOPS.Inhertance;
 
 // every class in java extends Objects class
 // Only one explicit constructor call allowed in constructor
@@ -6,7 +6,7 @@ package ThisAndConstructor;
 class A extends Object {
     public A(){
         super();
-        System.out.println("This is ThisAndConstructor.A");
+        System.out.println("This is OOPS.Inhertance.A");
     }
 
     public A(int a){
@@ -20,7 +20,7 @@ class A extends Object {
 class B extends A {
     public B(){
 //        super(); // Call the constructor of super class (The default constructor).
-        System.out.println("This is ThisAndConstructor.B");
+        System.out.println("This is OOPS.Inhertance.B");
     }
 
     public B(int b){
@@ -33,9 +33,9 @@ class B extends A {
 
 public class ThisAndSuperMethods {
     public static void main(String[] args) {
-//        ThisAndConstructor.B b1 = new ThisAndConstructor.B();
+//        OOPS.Inhertance.B b1 = new OOPS.Inhertance.B();
 
         B b2 = new B(10);
-        // i want to execute the both constructor of ThisAndConstructor.B
+        // i want to execute the both constructor of OOPS.Inhertance.B
     }
 }
