@@ -1,4 +1,4 @@
-package InTeRfAcE;
+package OOPS.Interface;
 
 class Dada {
     public void show() {
