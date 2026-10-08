@@ -1,4 +1,4 @@
-package ThisAndConstructor;
+package OOPS.Constructor;
 
 // Parent Class
 class Animal {
@@ -15,7 +15,7 @@ class Animal {
 
 // Child Class
 class Dog extends Animal {
-    String name; // Hides the parent's 'name' variable
+    String name; // Hides the parent's 'name' variable (Overrides)
 
     Dog(String dogName) {
         // super() MUST be the first line. Calls Animal(String)
