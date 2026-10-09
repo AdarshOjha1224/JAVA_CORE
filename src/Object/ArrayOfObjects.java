@@ -1,4 +1,4 @@
-package Objects;
+package Object;
 
 class Student{
     int rollno;
