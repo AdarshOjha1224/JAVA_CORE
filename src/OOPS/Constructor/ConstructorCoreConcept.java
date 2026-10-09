@@ -1,4 +1,4 @@
-package ThisAndConstructor;
+package OOPS.Constructor;
 
 //1. Interview-Ready Definition
 //Constructor: A constructor is a special block of code that is automatically invoked when an object of a class is created. It has the exact same name as the class, has no return type (not even void), and its primary purpose is to initialize the newly created object's state.
