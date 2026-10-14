@@ -1,9 +1,9 @@
 package COLLECTION.LIST;
 
 // Basic Definition (Interview Perfect)The List interface is a child of the Collection interface that represents an ordered sequence of elements. Unlike a basic Collection, a List provides precise control over where every element is inserted and allows you to access, manipulate, or remove elements based on their exact integer index (their position in the sequence).
-//
+
 // Concept Upgradation: While Collection upgraded standard arrays by making them dynamic, it lost the ability to access elements by their position (no [i] access). The List interface upgraded the Collection interface by bringing back the power of zero-based indexing. It bridges the gap by giving you the dynamic flexibility of a Collection combined with the exact positional control of a standard array.
-//
+
 // Core Characteristics Explained:
 // Ordering (Insertion Order Preservation):When you add elements to a List, the List remembers the exact sequence. If you add "Apple" then "Banana", the List guarantees that "Apple" will always come before "Banana" when you iterate through it. It does not auto-sort your elements alphabetically or numerically; it strictly honors your insertion order.
 // Indexing (Zero-Based Positional Access):Elements in a List are assigned an integer index starting at 0. This unlocks a whole suite of methods that standard Collections don't have:
@@ -11,19 +11,19 @@ package COLLECTION.LIST;
 // set(int index, E element): Replace an element at a specific spot.
 // add(int index, E element): Insert an element in the middle, shifting subsequent elements to the right.
 // remove(int index): Delete an element at a specific position.
-//
+
 // Duplicates & Nulls:Lists explicitly allow duplicate elements. If you want to store the number 5 ten times, a List will happily store them at indexes 0 through 9. Lists also typically allow multiple null values.
-//
+
 // Advantages & Disadvantages:
 // Advantages:
 // Positional Control: You can insert or update data exactly where you want it.
 // Predictability: Because insertion order is maintained, you know exactly how your data will be presented when you loop through it.
 // Duplication: Perfect for real-world scenarios where repeats are normal (e.g., a history of user clicks, a grocery list with two identical items).
-//
+
 // Disadvantages:
 // Value-Based Search Speed: While finding an item by its index is usually very fast, finding an item by its value (e.g., list.indexOf("Target")) requires checking every single item from the beginning until it finds a match, which is slow for massive lists ($O(N)$ time complexity).
-//
-//
+
+
 // Real-World Code ExampleImagine a music streaming application building a user's "Driving Playlist". Order matters (you want the intro track first), duplicates matter (you might want to play your favorite song twice), and indexing matters (you want to skip to track number 3).
 
 import java.util.*;
