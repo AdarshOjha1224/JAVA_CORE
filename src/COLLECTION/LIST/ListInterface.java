@@ -40,6 +40,10 @@ public class ListInterface {
         // 2. DUPLICATES: Adding the same song again is perfectly fine
         drivingPlaylist.add("Bohemian Rhapsody");
 
+
+
+
+
         // 3. INDEXING: Inserting exactly at index 1 (pushes Hotel California down)
         drivingPlaylist.add(1, "Stairway to Heaven");
 
@@ -50,6 +54,9 @@ public class ListInterface {
         String trackThree = drivingPlaylist.get(2);
         System.out.println("Track 3 is: " + trackThree);
         // Output: Track 3 is: Hotel California
+
+
+
 
         // Updating an element by index (Replacing Track 4)
         drivingPlaylist.set(3, "Free Bird");
