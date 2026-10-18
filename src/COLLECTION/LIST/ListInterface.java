@@ -24,6 +24,7 @@ package COLLECTION.LIST;
 // Value-Based Search Speed: While finding an item by its index is usually very fast, finding an item by its value (e.g., list.indexOf("Target")) requires checking every single item from the beginning until it finds a match, which is slow for massive lists ($O(N)$ time complexity).
 
 
+
 // Real-World Code ExampleImagine a music streaming application building a user's "Driving Playlist". Order matters (you want the intro track first), duplicates matter (you might want to play your favorite song twice), and indexing matters (you want to skip to track number 3).
 
 import java.util.*;
@@ -40,10 +41,6 @@ public class ListInterface {
         // 2. DUPLICATES: Adding the same song again is perfectly fine
         drivingPlaylist.add("Bohemian Rhapsody");
 
-
-
-
-
         // 3. INDEXING: Inserting exactly at index 1 (pushes Hotel California down)
         drivingPlaylist.add(1, "Stairway to Heaven");
 
@@ -54,9 +51,6 @@ public class ListInterface {
         String trackThree = drivingPlaylist.get(2);
         System.out.println("Track 3 is: " + trackThree);
         // Output: Track 3 is: Hotel California
-
-
-
 
         // Updating an element by index (Replacing Track 4)
         drivingPlaylist.set(3, "Free Bird");
