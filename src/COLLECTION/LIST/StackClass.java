@@ -17,13 +17,11 @@ package COLLECTION.LIST;
 
 //Why ArrayDeque is Preferred
 //The official Java documentation explicitly recommends using ArrayDeque instead of Stack.
-//
 //Speed: ArrayDeque is not synchronized, making it drastically faster.
-//
 //Memory: ArrayDeque uses a highly optimized circular array structure rather than Vector's outdated resizing logic.
-//
 //Encapsulation: By typing your variable as a Deque, you prevent developers from accidentally using index-based methods that break the LIFO rule.
-//
+
+
 //Real-World Code Example
 //Imagine the "Undo" feature in a text editor. Every time you type a word, it goes on the stack. When you hit Ctrl+Z, the most recent word is popped off first.
 
