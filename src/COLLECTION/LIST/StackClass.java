@@ -10,13 +10,11 @@ package COLLECTION.LIST;
 //
 //Core Characteristics
 //LIFO Principle: It operates strictly on the Last-In-First-Out principle using specific terminology:
-//
 //push(E item): Pushes an item onto the top of the stack.
-//
 //pop(): Removes and returns the object at the top of the stack.
-//
 //peek(): Looks at the object at the top without removing it.
-//
+
+
 //Why ArrayDeque is Preferred
 //The official Java documentation explicitly recommends using ArrayDeque instead of Stack.
 //
