@@ -36,9 +36,6 @@ public class StackClass {
         // MODERN APPROACH: Using ArrayDeque as a Stack
         Deque<String> undoStack = new ArrayDeque<>();
 
-
-
-
         // Pushing actions onto the top of the stack
         undoStack.push("Typed: 'Hello'");
         undoStack.push("Typed: ' World'");
